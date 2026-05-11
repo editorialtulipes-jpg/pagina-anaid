@@ -1,0 +1,56 @@
+.catalogo-header {
+  padding: 80px 40px 40px;
+}
+
+.catalogo-header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.catalogo-header p {
+  color: #666;
+}
+
+.catalogo-grid {
+  padding: 60px 40px;
+}
+
+.producto-horizontal {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 120px;
+}
+
+.producto-horizontal img {
+  width: 55%;
+  height: auto;
+}
+
+.producto-info {
+  width: 45%;
+}
+
+.producto-info h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.producto-info p,
+.producto-info span {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #444;
+}
+
+.producto-horizontal.reverse {
+  flex-direction: row;
+}
+
+.producto-horizontal.reverse .producto-info {
+  text-align: left;
+}

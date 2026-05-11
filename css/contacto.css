@@ -1,0 +1,50 @@
+.contacto {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 80px 40px;
+}
+
+.contacto h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contacto-texto {
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formulario input,
+.formulario textarea {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.formulario button {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  background: none;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background: black;
+  color: white;
+}

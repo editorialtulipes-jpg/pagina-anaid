@@ -156,3 +156,166 @@
     text-align: center;
   }
 }
+
+/* =========================
+   GLOBAL MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .header {
+    flex-direction: column;
+
+    gap: 20px;
+
+    padding: 25px 20px;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 18px;
+  }
+
+  .nav a {
+    font-size: 14px;
+    margin-left: 0;
+  }
+
+}
+
+
+/* =========================
+   ABOUT MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+  .about-hero {
+    flex-direction: column-reverse;
+
+    padding: 40px 20px 70px;
+
+    gap: 35px;
+
+    min-height: auto;
+  }
+
+  .about-hero img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .about-info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-info h1 {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+
+  .about-subtitle {
+    font-size: 12px;
+  }
+
+  .about-text {
+    flex-direction: column;
+
+    padding: 70px 20px;
+
+    gap: 50px;
+  }
+
+  .about-column {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .about-column h2 {
+    font-size: 34px;
+    text-align: center;
+  }
+
+  .about-column p {
+    font-size: 16px;
+    line-height: 1.9;
+  }
+
+  .about-image {
+    padding: 0 20px 80px;
+  }
+
+  .about-image img {
+    width: 100%;
+  }
+
+}
+
+
+/* =========================
+   SHOP MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+  .shop-hero {
+    flex-direction: column-reverse;
+
+    padding: 40px 20px 70px;
+
+    gap: 35px;
+
+    min-height: auto;
+  }
+
+  .shop-hero img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .shop-hero-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .shop-hero-text h1 {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+
+  .shop-tag {
+    font-size: 12px;
+  }
+
+  .shop-grid {
+    grid-template-columns: 1fr;
+
+    padding: 30px 20px 90px;
+
+    gap: 60px;
+  }
+
+  .shop-item {
+    width: 100%;
+  }
+
+  .shop-item img {
+    width: 100%;
+  }
+
+  .shop-info {
+    text-align: center;
+  }
+
+  .shop-info h2 {
+    font-size: 28px;
+  }
+
+}

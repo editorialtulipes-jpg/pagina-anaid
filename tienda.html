@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -25,6 +23,10 @@
       <a href="Catalogo.html">Catalogo</a>
       <a href="about.html">Sobre mí</a>
       <a href="contacto.html">Contacto</a>
+
+      <button class="cart-button" id="cartButton">
+        Carrito (0)
+      </button>
     </nav>
 
   </header>
@@ -61,21 +63,29 @@
 
       <article class="shop-item fade-in">
 
-        <img src="img/Catalogo/IMG_6205.jpeg" alt="Publicación">
+        <img src="img/tienda/crisalida.png" alt="Publicación">
 
         <div class="shop-info">
 
           <h2>
-            Nombre de la publicación
+            Print crisalida
           </h2>
 
           <p>
-            Edición limitada · 2026
+            Edición limitada · 2025
           </p>
 
-          <span>
-            $450 MXN
-          </span>
+          <div class="shop-actions">
+
+            <span>
+              $450 MXN
+            </span>
+
+            <button class="add-cart" data-name="Print crisalida" data-price="450">
+              Agregar
+            </button>
+
+          </div>
 
         </div>
 
@@ -84,21 +94,29 @@
 
       <article class="shop-item fade-in">
 
-        <img src="img/Catalogo/IMG_6205.jpeg" alt="Impresión">
+        <img src="img/tienda/print_piernas.png" alt="Impresión">
 
         <div class="shop-info">
 
           <h2>
-            Impresión
+            Print piernas
           </h2>
 
           <p>
-            Papel algodón · Firmada
+            Impresión sobre papel algodón
           </p>
+           
+          <div class="shop-actions">
 
-          <span>
-            $1,200 MXN
-          </span>
+            <span>
+              $350 MXN
+            </span>
+
+            <button class="add-cart" data-name="Print piernas" data-price="350">
+              Agregar
+            </button>
+
+          </div>
 
         </div>
 
@@ -107,25 +125,154 @@
 
       <article class="shop-item fade-in">
 
-        <img src="img/Catalogo/IMG_6205.jpeg" alt="Objeto editorial">
+        <img src="img/tienda/print_manos.png" alt="Objeto editorial">
 
         <div class="shop-info">
 
           <h2>
-            Objeto editorial
+            Print manos
           </h2>
 
           <p>
-            Pieza ensamblada a mano
+            Impresión sobre papel algodón
           </p>
+            
+          <div class="shop-actions">
 
-          <span>
-            $780 MXN
-          </span>
+            <span>
+              $350 MXN
+            </span>
+
+            <button class="add-cart" data-name="Print manos" data-price="350">
+              Agregar
+            </button>
+
+          </div>
 
         </div>
 
       </article>
+      <article class="shop-item fade-in">
+
+        <img src="img/tienda/Arrasaiman.png" alt="Impresión">
+
+        <div class="shop-info">
+
+          <h2>
+            Iman Arrasa
+          </h2>
+
+          <p>
+            Iman cubierto en resina
+          </p>
+           
+          <div class="shop-actions">
+
+            <span>
+              $70 MXN
+            </span>
+
+            <button class="add-cart" data-name="Print Iman Arrasa" data-price="70">
+              Agregar
+            </button>
+
+          </div>
+
+        </div>
+
+      </article>
+      
+      <article class="shop-item fade-in">
+
+        <img src="img/tienda/palomaiman.png" alt="Impresión">
+
+        <div class="shop-info">
+
+          <h2>
+            Iman Paloma
+          </h2>
+
+          <p>
+            Iman cubierto en resina
+          </p>
+           
+          <div class="shop-actions">
+
+            <span>
+              $70 MXN
+            </span>
+
+            <button class="add-cart" data-name="Iman Paloma" data-price="70">
+              Agregar
+            </button>
+
+          </div>
+
+        </div>
+
+      </article>
+
+            <article class="shop-item fade-in">
+
+        <img src="img/tienda/Sombraperiiman.png" alt="Impresión">
+
+        <div class="shop-info">
+
+          <h2>
+            Iman Sombra periferico
+          </h2>
+
+          <p>
+            Iman cubierto en resina
+          </p>
+           
+          <div class="shop-actions">
+
+            <span>
+              $70 MXN
+            </span>
+
+            <button class="add-cart" data-name="Iman Sombra periferico" data-price="70">
+              Agregar
+            </button>
+
+          </div>
+
+        </div>
+
+      </article>
+
+    </section>
+
+    <section class="cart-panel" id="cartPanel">
+
+      <div class="cart-header">
+
+        <h2>
+          Carrito
+        </h2>
+
+        <button class="close-cart" id="closeCart">
+          ×
+        </button>
+
+      </div>
+
+      <div class="cart-content">
+
+        <p>
+          Tu carrito está vacío.
+        </p>
+
+      </div>
+
+      <div class="cart-footer">
+
+        <button class="checkout-button">
+          Finalizar compra
+        </button>
+
+      </div>
 
     </section>
 

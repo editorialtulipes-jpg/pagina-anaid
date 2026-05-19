@@ -238,3 +238,7 @@
   transform: translateX(6px);
   opacity: 0.7;
 }
+
+.texto-curatorial p {
+  white-space: pre-line;
+}

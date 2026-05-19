@@ -1,0 +1,131 @@
+
+
+/* =========================
+   SHOP HERO
+========================= */
+
+.shop-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 80px;
+
+  min-height: 90vh;
+
+  padding: 80px 60px;
+}
+
+.shop-hero img {
+  width: 50%;
+  max-width: 850px;
+
+  height: auto;
+  object-fit: cover;
+
+  border-radius: 18px;
+
+  box-shadow:
+    0 18px 45px rgba(0, 0, 0, 0.14),
+    0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.shop-hero-text {
+  width: 35%;
+}
+
+.shop-tag {
+  font-size: 13px;
+
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #777;
+
+  margin-bottom: 25px;
+}
+
+.shop-hero-text h1 {
+  font-family: 'Playfair Display', serif;
+
+  font-size: 64px;
+  font-weight: normal;
+
+  line-height: 1.05;
+
+  margin-bottom: 25px;
+}
+
+.shop-hero-text p {
+  font-size: 17px;
+  line-height: 1.9;
+
+  color: #333;
+}
+
+
+/* =========================
+   PRODUCTS
+========================= */
+
+.shop-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 50px;
+
+  padding: 60px;
+}
+
+.shop-item {
+  transition:
+    transform 0.5s ease,
+    opacity 0.5s ease;
+}
+
+.shop-item:hover {
+  transform: translateY(-8px);
+}
+
+.shop-item img {
+  width: 100%;
+
+  border-radius: 16px;
+
+  margin-bottom: 25px;
+
+  transition:
+    filter 0.6s ease,
+    transform 0.6s ease,
+    opacity 0.6s ease;
+}
+
+.shop-item img:hover {
+  filter: blur(3px);
+  transform: scale(0.99);
+  opacity: 0.85;
+}
+
+.shop-info h2 {
+  font-family: 'Playfair Display', serif;
+
+  font-size: 30px;
+  font-weight: normal;
+
+  margin-bottom: 12px;
+}
+
+.shop-info p {
+  color: #666;
+
+  margin-bottom: 15px;
+}
+
+.shop-info span {
+  font-size: 13px;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #111;
+}

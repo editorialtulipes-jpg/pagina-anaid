@@ -1,0 +1,121 @@
+/* =========================
+   ABOUT PAGE
+========================= */
+
+.about-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 80px;
+
+  min-height: 90vh;
+
+  padding: 80px 60px;
+}
+
+.about-hero img {
+  width: 45%;
+  max-width: 700px;
+
+  height: auto;
+  object-fit: cover;
+
+  border-radius: 18px;
+
+box-shadow:
+  0 18px 45px rgba(0, 0, 0, 0.14),
+  0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.about-info {
+  width: 35%;
+}
+
+.about-info h1 {
+  font-family: 'Playfair Display', serif;
+
+  font-size: 64px;
+  font-weight: normal;
+
+  margin-bottom: 15px;
+}
+
+.about-subtitle {
+  font-size: 13px;
+
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #777;
+
+  margin-bottom: 35px;
+}
+
+.about-info p {
+  font-size: 17px;
+  line-height: 1.9;
+
+  color: #333;
+}
+
+
+/* =========================
+   ABOUT TEXT
+========================= */
+
+.about-text {
+  display: flex;
+  justify-content: center;
+
+  gap: 80px;
+
+  padding: 120px 60px;
+}
+
+.about-column {
+  width: 40%;
+  max-width: 600px;
+}
+
+.about-column h2 {
+  font-family: 'Playfair Display', serif;
+
+  font-size: 42px;
+  font-weight: normal;
+
+  margin-bottom: 35px;
+}
+
+.about-column p {
+  font-size: 17px;
+  line-height: 2;
+
+  color: #333;
+
+  margin-bottom: 30px;
+}
+
+
+/* =========================
+   LARGE IMAGE
+========================= */
+
+.about-image {
+  padding: 0 60px 140px;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 1400px;
+
+  margin: 0 auto;
+
+  display: block;
+
+  border-radius: 18px;
+
+box-shadow:
+  0 22px 55px rgba(0, 0, 0, 0.14),
+  0 6px 18px rgba(0, 0, 0, 0.06);
+}
